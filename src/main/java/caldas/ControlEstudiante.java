@@ -41,7 +41,7 @@ public class ControlEstudiante {
             line = null;
             atributos = null;
         } catch (Exception e) {
-            System.out.println("Error aqui: " + e);
+            System.out.println("Error: No se encontro un archivo con ese nombre" + e);
         }
 
     }
