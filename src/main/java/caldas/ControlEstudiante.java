@@ -32,7 +32,7 @@ public class ControlEstudiante {
                 // Aqui consigo los atributos y lo que hago es crear el estudiante con esos
                 // atributos
                 atributos = line.split(",");
-                estudent = new Estudiante(Integer.parseInt(atributos[0]), atributos[1], atributos[2]);
+                estudent = new Estudiante(atributos[0], atributos[1], atributos[2]);
                 // Agrego el estudiante actual en el arraylist de tipo estudiante
                 estudiantes.add(estudent);
 
